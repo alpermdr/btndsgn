@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+
+
+}
+.youtube{
+    color: Blue;
+
+    background: linear-gradient(red,black);
+
+}
+.top{
+    
+    margin-left: 600px;
+    transition: width,margin-left,background-color,opacity;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    opacity: 0.5;
+    content: none;
+    transition-duration: 1s;
+    
+    background: linear-gradient(red,black);
+}
+.top:hover{
+    
+    margin-left: 170;
+    width: 1300;
+    background-color : white;
+    opacity:1;
+
+
+}
+.container{
+    
+    margin-top: -100px;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    transition-property: height,background-color,opacity;
+    transition-delay: 0s;
+    transition-duration:  1s;
+    background: linear-gradient(red,black);
+    box-shadow: 10px 10px 10px red,10px 10px 10px red,10px 10px 10px red,;
+    opacity: 0.5;
+}
+
+.a{
+    color: cadetblue;
+    margin-left: 600px;
+    box-sizing: border-box;
+
+}
+.container:hover{
+    height: 100%;
+    opacity: 1;
+    background-color: white ;
+    
+}

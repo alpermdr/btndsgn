@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/CSS/style.css">
+    </head>
+    <body>
+    <style>
+
+        
+        body{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:rgb(23, 23, 23);
+            min-height: 100vh;
+            font-family: consolas;
+        }
+        a{
+            position: relative;
+            color : #2196f3;
+            display: inline-block;
+            padding: 15px 30px ;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            text-decoration: none;
+            overflow: hidden;
+            font-size: 24px;
+            transition-delay : 0.3s;
+        }
+
+        a:hover{
+            color: #255784;
+            background:#2196f3;
+            transition-delay : 0.3s;
+            box-shadow: 0px 0px 10px #2196f3, 0px 0px 40px #2196f3, 0px 0px 80px #2196f3;
+        }
+        a span{
+
+
+            position: absolute;
+            display: block;
+        }
+        a span:nth-child(1){
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg,transparent,#2196f3);
+        }
+        a span:hover span:nth-child(1){
+            left: 100%;
+            transition: 1s;
+        }
+    </style>
+
+    <a href="#https://codecenter.nicepage.io">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+         Neon button
+    </a>
+    </body>
+</html>
